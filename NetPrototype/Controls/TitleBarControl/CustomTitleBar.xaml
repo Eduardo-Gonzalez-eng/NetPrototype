@@ -64,15 +64,17 @@
                                     Width="45"
                                     Height="35"
                                     VerticalAlignment="Center"
-                                    Content="-"
-                                    Style="{DynamicResource ButtonStyle1}" />
+                                    Background="Transparent"
+                                    BorderBrush="Transparent"
+                                    Content="-" />
                                 <Button
                                     x:Name="CloseButton"
                                     Width="45"
                                     Height="35"
                                     VerticalAlignment="Center"
-                                    Content="X"
-                                    Style="{DynamicResource ButtonStyle1}" />
+                                    Background="Transparent"
+                                    BorderBrush="Transparent"
+                                    Content="X" />
                             </StackPanel>
 
                         </Grid>
