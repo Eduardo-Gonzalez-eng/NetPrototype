@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetPrototype")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c41b8ac9696a430b4325c35316e766b1eea6ab54")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetPrototype")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetPrototype")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

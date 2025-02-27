@@ -4,5 +4,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:NetPrototype"
     StartupUri="Views/Window/MainWindow.xaml">
-    <Application.Resources />
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Controls/TitleBarControl/CustomTitleBar.xaml" />
+                <ResourceDictionary Source="Controls/Button/ButtonStyle.xaml" />
+                <ResourceDictionary Source="Controls/TabControl/TabControlStyle.xaml" />
+                <ResourceDictionary Source="Controls/TabControl/TabItemStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>

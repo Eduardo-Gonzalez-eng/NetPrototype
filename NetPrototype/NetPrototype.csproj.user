@@ -7,6 +7,32 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\Pages\TCPClientPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Pages\TCPServerPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Controls\Button\ButtonStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\TabControl\TabControlStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\TabControl\TabItemStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\TitleBarControl\CustomTitleBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\TCPClientPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Pages\TCPServerPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Window\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
