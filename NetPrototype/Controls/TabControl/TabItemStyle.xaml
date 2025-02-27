@@ -36,7 +36,6 @@
                             MinWidth="80"
                             MinHeight="36"
                             Margin="0"
-                            Padding="6"
                             Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="1,1,1,0"

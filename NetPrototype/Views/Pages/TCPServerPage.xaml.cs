@@ -1,5 +1,8 @@
-﻿using System;
+﻿using NetPrototype.Interfaces;
+using NetPrototype.ViewModels.Pages;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,20 +21,21 @@ namespace NetPrototype.Views.Pages
     /// <summary>
     /// Lógica de interacción para TCPServerPage.xaml
     /// </summary>
-    public partial class TCPServerPage : UserControl
+    public partial class TCPServerPage : UserControl, IPage
     {
-
-        public static readonly DependencyProperty ServerTitleProperty = DependencyProperty.Register("ServerTitle", typeof(string), typeof(TCPServerPage), new PropertyMetadata("Default Server Title"));
-
-        public string ServerTitle
-        {
-            get { return (string)GetValue(ServerTitleProperty); }
-            set { SetValue(ServerTitleProperty, value); }
-        }
-
         public TCPServerPage()
         {
             InitializeComponent();
+            this.Unloaded += View_Unloaded;
+        }
+
+        private void View_Unloaded(object sender, RoutedEventArgs e)
+        {
+            if (this.DataContext is TCPServerViewModel viewModel)
+            {
+                viewModel.Cleanup();
+                Debug.WriteLine("CleanUP Server View.");
+            }
         }
     }
 }

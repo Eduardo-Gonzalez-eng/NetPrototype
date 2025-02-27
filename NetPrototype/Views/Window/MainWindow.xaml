@@ -52,7 +52,7 @@
                         Padding="5,4"
                         Header="Servidor"
                         Style="{DynamicResource TabItemStyle1}">
-                        <views:TCPServerPage ServerTitle="Titulo central" />
+                        <views:TCPServerPage />
                     </TabItem>
                 </TabControl>
             </Border>

@@ -27,6 +27,12 @@
     <Page Update="Controls\TitleBarControl\CustomTitleBar.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resources\Themes\DarkTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Themes\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Pages\TCPClientPage.xaml">
       <SubType>Designer</SubType>
     </Page>

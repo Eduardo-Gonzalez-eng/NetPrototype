@@ -3,52 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpclientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpclientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\window\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\window\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\tabcontrol\\tabitemstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\tabcontrol\\tabitemstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\tabcontrol\\tabcontrolstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\tabcontrol\\tabcontrolstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpserverpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpserverpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\viewmodels\\pages\\tcpserverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\viewmodels\\pages\\tcpserverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\titlebarcontrol\\customtitlebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\titlebarcontrol\\customtitlebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\titlebarcontrol\\customtitlebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\titlebarcontrol\\customtitlebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\hardware\\networkmanagement\\tcp\\tcpclientutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\hardware\\networkmanagement\\tcp\\tcpclientutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\viewmodels\\pages\\tcpclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\viewmodels\\pages\\tcpclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\button\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\button\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpclientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpclientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\window\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\window\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\viewmodels\\pages\\tcpserverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\viewmodels\\pages\\tcpserverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpclientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpclientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\hardware\\processors\\networkutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\hardware\\processors\\networkutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\hardware\\processors\\networkbufferprocessorutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\hardware\\processors\\networkbufferprocessorutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\hardware\\networkmanagement\\inetworkstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\hardware\\networkmanagement\\inetworkstatushandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\hardware\\networkmanagement\\tcp\\tcpserverutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\hardware\\networkmanagement\\tcp\\tcpserverutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\window\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\window\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\enums\\enumbufferdataproccesormethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\enums\\enumbufferdataproccesormethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\titlebarcontrol\\customtitlebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\titlebarcontrol\\customtitlebar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Window\\MainWindow.xaml",
               "RelativeDocumentMoniker": "NetPrototype\\Views\\Window\\MainWindow.xaml",
@@ -75,139 +79,159 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TabItemStyle.xaml",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TabControl\\TabItemStyle.xaml",
-              "RelativeDocumentMoniker": "NetPrototype\\Controls\\TabControl\\TabItemStyle.xaml",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TabControl\\TabItemStyle.xaml",
-              "RelativeToolTip": "NetPrototype\\Controls\\TabControl\\TabItemStyle.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T02:26:43.625Z",
+              "DocumentIndex": 4,
+              "Title": "TCPClientPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPClientPage.xaml.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPClientPage.xaml.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPClientPage.xaml.cs",
+              "RelativeToolTip": "NetPrototype\\Views\\Pages\\TCPClientPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:39:36.047Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TabControlStyle.xaml",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TabControl\\TabControlStyle.xaml",
-              "RelativeDocumentMoniker": "NetPrototype\\Controls\\TabControl\\TabControlStyle.xaml",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TabControl\\TabControlStyle.xaml",
-              "RelativeToolTip": "NetPrototype\\Controls\\TabControl\\TabControlStyle.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T02:22:22.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TCPServerPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPServerPage.xaml.cs",
-              "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPServerPage.xaml.cs",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPServerPage.xaml.cs",
-              "RelativeToolTip": "NetPrototype\\Views\\Pages\\TCPServerPage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T02:14:48.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "TCPServerViewModel.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPServerViewModel.cs",
               "RelativeDocumentMoniker": "NetPrototype\\ViewModels\\Pages\\TCPServerViewModel.cs",
               "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPServerViewModel.cs",
               "RelativeToolTip": "NetPrototype\\ViewModels\\Pages\\TCPServerViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAewFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T01:59:53.923Z",
+              "WhenOpened": "2025-02-27T14:16:34.626Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TCPServerPage.xaml",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
-              "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
-              "RelativeToolTip": "NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T01:59:28.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomTitleBar.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.cs",
-              "RelativeDocumentMoniker": "NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.cs",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.cs",
-              "RelativeToolTip": "NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAYwF4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TCPClientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
+              "RelativeToolTip": "NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAnwE0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T23:12:08.38Z",
+              "WhenOpened": "2025-02-27T16:32:14.321Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TCPClientPage.xaml",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPClientPage.xaml",
               "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPClientPage.xaml",
               "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPClientPage.xaml",
               "RelativeToolTip": "NetPrototype\\Views\\Pages\\TCPClientPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T01:51:30.16Z",
+              "WhenOpened": "2025-02-27T16:56:29.184Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TCPClientUtility.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPClientUtility.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPClientUtility.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPClientUtility.cs*",
+              "RelativeToolTip": "NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPClientUtility.cs*",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswJ4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:45:09.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkBufferProcessorUtility.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\Processors\\NetworkBufferProcessorUtility.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\Hardware\\Processors\\NetworkBufferProcessorUtility.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\Processors\\NetworkBufferProcessorUtility.cs",
+              "RelativeToolTip": "NetPrototype\\Hardware\\Processors\\NetworkBufferProcessorUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:08:59.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INetworkStatusHandler.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\NetworkManagement\\INetworkStatusHandler.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\Hardware\\NetworkManagement\\INetworkStatusHandler.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\NetworkManagement\\INetworkStatusHandler.cs",
+              "RelativeToolTip": "NetPrototype\\Hardware\\NetworkManagement\\INetworkStatusHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:06:47.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NetworkUtils.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\Processors\\NetworkUtils.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\Hardware\\Processors\\NetworkUtils.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\Processors\\NetworkUtils.cs",
+              "RelativeToolTip": "NetPrototype\\Hardware\\Processors\\NetworkUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:09:34.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "TCPServerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
+              "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
+              "RelativeToolTip": "NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-27T16:26:36.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TCPServerUtility.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPServerUtility.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPServerUtility.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPServerUtility.cs",
+              "RelativeToolTip": "NetPrototype\\Hardware\\NetworkManagement\\TCP\\TCPServerUtility.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAWwIgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:16:27.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CustomTitleBar.xaml",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.xaml",
               "RelativeDocumentMoniker": "NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.xaml",
               "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.xaml",
               "RelativeToolTip": "NetPrototype\\Controls\\TitleBarControl\\CustomTitleBar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-26T23:17:37.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TCPClientViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
-              "RelativeDocumentMoniker": "NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
-              "RelativeToolTip": "NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawAkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T01:51:42.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ButtonStyle.xaml",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "RelativeDocumentMoniker": "NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "RelativeToolTip": "NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T01:40:13.286Z",
+              "WhenOpened": "2025-02-27T15:08:10.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Window\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "NetPrototype\\Views\\Window\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Window\\MainWindow.xaml.cs",
-              "RelativeToolTip": "NetPrototype\\Views\\Window\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EnumBufferDataProccesorMethod.cs",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Enums\\EnumBufferDataProccesorMethod.cs",
+              "RelativeDocumentMoniker": "NetPrototype\\Enums\\EnumBufferDataProccesorMethod.cs",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Enums\\EnumBufferDataProccesorMethod.cs",
+              "RelativeToolTip": "NetPrototype\\Enums\\EnumBufferDataProccesorMethod.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T22:39:06.838Z",
+              "WhenOpened": "2025-02-27T15:05:48.894Z",
               "EditorCaption": ""
             }
           ]

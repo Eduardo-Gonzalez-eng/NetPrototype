@@ -8,6 +8,8 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Themes/LightTheme.xaml" />
+
                 <ResourceDictionary Source="Controls/TitleBarControl/CustomTitleBar.xaml" />
                 <ResourceDictionary Source="Controls/Button/ButtonStyle.xaml" />
                 <ResourceDictionary Source="Controls/TabControl/TabControlStyle.xaml" />
