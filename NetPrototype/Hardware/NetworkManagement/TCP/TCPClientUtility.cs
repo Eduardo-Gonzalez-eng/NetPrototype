@@ -14,7 +14,7 @@ namespace NetPrototype.Hardware.NetworkManagement.TCP
         /// <summary>
         /// The semaphore to enable a only operation.
         /// </summary>
-        private readonly SemaphoreSlim _syncSemaphore = new(1, 1);
+        //private readonly SemaphoreSlim _syncSemaphore = new(1, 1);
 
         /// <summary>
         /// Represents the connection status.
@@ -77,10 +77,11 @@ namespace NetPrototype.Hardware.NetworkManagement.TCP
             {
                 // Crear una instancia de TcpClient y conectarse al servidor
                 _client = new TcpClient();
+                _cancellationTokenSource = new CancellationTokenSource();
 
                 await _client.ConnectAsync(ipv4Address, port); // Conectar de forma asíncrona
-
-                _cancellationTokenSource = new CancellationTokenSource();
+                _ = ReadBufferFromServerAsync();
+               
                 NotifyConnectionStatus(ConnectionState.Active);
             }
             catch (SocketException ex)
@@ -121,26 +122,18 @@ namespace NetPrototype.Hardware.NetworkManagement.TCP
                 throw new InvalidOperationException("The must be connected with some server.");
             }
 
-            await _syncSemaphore.WaitAsync(_cancellationTokenSource.Token);
-            try
+            switch (method)
             {
-                switch (method)
-                {
-                    case BufferProccesorMethod.TextMessage:
-                        Debug.WriteLine($"Method message.");
-                        await _client
-                        .GetStream()
-                            .WriteAsync(txBuffer, _cancellationTokenSource.Token)
-                            .ConfigureAwait(false);
-                        break;
-                    default:
-                        Debug.WriteLine($"Method no implemented.");
-                        break;
-                }
-            }
-            finally
-            {
-                _syncSemaphore.Release();
+                case BufferProccesorMethod.TextMessage:
+                    Debug.WriteLine($"Method message.");
+                    await _client
+                    .GetStream()
+                        .WriteAsync(txBuffer, _cancellationTokenSource.Token)
+                        .ConfigureAwait(false);
+                    break;
+                default:
+                    Debug.WriteLine($"Method no implemented.");
+                    break;
             }
         }
         /// <summary>
@@ -149,15 +142,14 @@ namespace NetPrototype.Hardware.NetworkManagement.TCP
         /// <param name="method"></param>
         /// <returns></returns>
         /// <exception cref="InvalidOperationException"></exception>
-        public async Task ReadBufferFromServerAsync(BufferProccesorMethod method)
+        private async Task ReadBufferFromServerAsync()
         {
             if (_client == null || ClientStatus == ConnectionState.Active)
             {
                 throw new InvalidOperationException("The must be connected with some server.");
             }
 
-            await _syncSemaphore.WaitAsync(_cancellationTokenSource.Token);
-            try
+            while(!_cancellationTokenSource.IsCancellationRequested)
             {
                 Memory<byte> RxBuffer = new(new byte[1024]);
 
@@ -166,10 +158,6 @@ namespace NetPrototype.Hardware.NetworkManagement.TCP
                 await _client.GetStream().ReadAsync(RxBuffer, _cancellationTokenSource.Token);
 
                 NotifyTransaction(DateTime.Now, _client, RxBuffer);
-            }
-            finally
-            {
-                _syncSemaphore.Release();
             }
         }
 

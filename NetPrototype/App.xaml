@@ -14,6 +14,9 @@
                 <ResourceDictionary Source="Controls/Button/ButtonStyle.xaml" />
                 <ResourceDictionary Source="Controls/TabControl/TabControlStyle.xaml" />
                 <ResourceDictionary Source="Controls/TabControl/TabItemStyle.xaml" />
+                <ResourceDictionary Source="Controls/ComboBox/ComboBoxStyle.xaml" />
+                <ResourceDictionary Source="Controls/TextBox/TextBoxStyle.xaml" />
+                <ResourceDictionary Source="Controls/CheckBox/CheckBoxStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
         </ResourceDictionary>

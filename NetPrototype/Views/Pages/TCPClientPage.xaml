@@ -19,6 +19,9 @@
 
     <UserControl.Resources>
         <converters:MultiParametersConverter x:Key="MultiParameterConverter" />
+        <converters:StringToEnumConverter x:Key="StringToEnumConverter" />
+        <converters:BoolToBrushForegroundConverter x:Key="BoolToBrushForegroundConverter" />
+        <converters:BoolToBrushButtonConverter x:Key="BoolToBrushButtonConverter" />
     </UserControl.Resources>
 
     <Border Padding="8">
@@ -26,15 +29,11 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
                 <RowDefinition />
             </Grid.RowDefinitions>
 
-            <ProgressBar IsIndeterminate="True" Visibility="{Binding ProgessBarConClientVisibility}" />
-
-
-            <StackPanel Grid.Row="1">
-                <Grid Margin="0,0,0,4">
+            <StackPanel Grid.Row="0">
+                <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition />
@@ -62,30 +61,85 @@
                         <ColumnDefinition Width="Auto" />
                     </Grid.ColumnDefinitions>
 
-                    <TextBox
-                        x:Name="ipadress"
-                        Grid.Column="0"
-                        Margin="0,0,5,0"
-                        HorizontalAlignment="Stretch"
-                        VerticalAlignment="Stretch"
-                        TextAlignment="Left" />
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
 
-                    <TextBox
-                        x:Name="port"
+
+                    <Border
+                        Margin="0,0,4,0"
+                        Padding="4,2"
+                        BorderBrush="#ECECEC"
+                        BorderThickness="1"
+                        CornerRadius="5">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <TextBlock
+                                FontSize="12"
+                                Foreground="#555555"
+                                Text="Dirección IP" />
+
+                            <TextBox
+                                x:Name="ipadress"
+                                Grid.Row="1"
+                                Margin="0,2,5,0"
+                                Padding="4,2"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                BorderThickness="0"
+                                FontSize="14"
+                                Style="{DynamicResource TextBoxStyle1}"
+                                TextAlignment="Left" />
+                        </Grid>
+                    </Border>
+
+
+                    <Border
                         Grid.Column="1"
                         Width="120"
-                        Margin="0,0,5,0"
-                        HorizontalAlignment="Stretch"
-                        VerticalAlignment="Stretch"
-                        PreviewTextInput="NumberValidationTextBox"
-                        TextAlignment="Center" />
+                        Margin="0,0,4,0"
+                        Padding="4,2"
+                        BorderBrush="#ECECEC"
+                        BorderThickness="1"
+                        CornerRadius="5">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+
+                            <TextBlock
+                                FontSize="12"
+                                Foreground="#555555"
+                                Text="Puerto" />
+
+                            <TextBox
+                                x:Name="port"
+                                Grid.Row="1"
+                                Margin="0,2,5,0"
+                                Padding="4,2"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Stretch"
+                                BorderThickness="0"
+                                FontSize="14"
+                                Style="{DynamicResource TextBoxStyle1}"
+                                TextAlignment="Left" />
+                        </Grid>
+                    </Border>
 
                     <Button
                         Grid.Column="2"
                         Width="120"
                         HorizontalAlignment="Stretch"
                         VerticalAlignment="Stretch"
-                        Command="{Binding ToggleStartClientCommand}">
+                        Background="White"
+                        Command="{Binding ToggleStartClientCommand}"
+                        Style="{DynamicResource ButtonStyle1}">
                         <Button.CommandParameter>
                             <MultiBinding Converter="{StaticResource MultiParameterConverter}">
                                 <Binding ElementName="ipadress" Path="Text" />
@@ -93,13 +147,27 @@
                             </MultiBinding>
                         </Button.CommandParameter>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Iniciar" />
+                            <TextBlock
+                                FontSize="14"
+                                Foreground="{Binding Path=InOperation, Converter={StaticResource BoolToBrushForegroundConverter}, ConverterParameter='#959595'}"
+                                Text="{Binding TextButtonClient}" />
                         </StackPanel>
                     </Button>
+
+                    <TextBlock
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                        Margin="0,0,5,0"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"
+                        Foreground="#0a968e"
+                        Text="{Binding MessageClientStatus}"
+                        TextAlignment="Left" />
                 </Grid>
             </StackPanel>
 
-            <StackPanel Grid.Row="2" Margin="0,10,0,10">
+            <StackPanel Grid.Row="1" Margin="0,10,0,10">
                 <TextBlock
                     Padding="4,2"
                     FontSize="12"
@@ -108,83 +176,110 @@
                 <ComboBox
                     Width="180"
                     MinWidth="180"
+                    Padding="10,7"
                     HorizontalAlignment="Left"
-                    SelectedIndex="0">
-                    <ComboBoxItem Content="Mensajes de texto" />
-                </ComboBox>
+                    BorderBrush="#F8F8F8"
+                    BorderThickness="1"
+                    ItemsSource="{Binding MethodProcess}"
+                    SelectedIndex="{Binding SelectedBufferProcessorMethod, Converter={StaticResource StringToEnumConverter}, ConverterParameter={x:Type vm:TCPClientViewModel}}"
+                    Style="{DynamicResource ComboBoxStyle1}" />
             </StackPanel>
 
-            <Grid Grid.Row="3">
+            <Grid Grid.Row="2">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
                     <RowDefinition />
-                    <RowDefinition Height="Auto" />
                     <RowDefinition />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
 
-                <Grid Margin="0,0,0,4">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <TextBlock
-                        Grid.Column="1"
-                        Margin="0,2,0,2"
-                        Padding="4,2"
-                        FontSize="12"
-                        Foreground="{DynamicResource PrimaryForegroundColor}"
-                        Text="Mensaje para el servidor" />
-                    <iconPacks:PackIconCodicons
-                        Width="18"
-                        Margin="0,0,10,0"
-                        VerticalAlignment="Center"
-                        Foreground="{DynamicResource PrimaryForegroundColor}"
-                        Kind="Info"
-                        ToolTip="Escribe el mensaje que le deseas enviar al servidor."
-                        ToolTipService.InitialShowDelay="0" />
-                </Grid>
-                <TextBox
-                    x:Name="tbClient"
-                    Grid.Row="1"
-                    Margin="0,0,0,5"
-                    Background="#F9F9F9" />
-                <Grid Grid.Row="2" Margin="0,0,0,4">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <TextBlock
-                        Grid.Column="1"
-                        Margin="0,2,0,2"
-                        Padding="4,2"
-                        FontSize="12"
-                        Foreground="{DynamicResource PrimaryForegroundColor}"
-                        Text="Respuesta del servidor" />
-                    <iconPacks:PackIconCodicons
-                        Width="18"
-                        Margin="0,0,10,0"
-                        VerticalAlignment="Center"
-                        Foreground="{DynamicResource PrimaryForegroundColor}"
-                        Kind="Info"
-                        ToolTip="Acá verás el mensaje de respuesta que te ha enviado el servidor."
-                        ToolTipService.InitialShowDelay="0" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="0,0,0,4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock
+                            Margin="0,2,0,2"
+                            Padding="4,2"
+                            FontSize="12"
+                            Foreground="{DynamicResource PrimaryForegroundColor}"
+                            Text="Respuesta del servidor" />
+                        <iconPacks:PackIconCodicons
+                            Grid.Column="1"
+                            Width="18"
+                            Margin="0,0,10,0"
+                            VerticalAlignment="Center"
+                            Foreground="{DynamicResource PrimaryForegroundColor}"
+                            Kind="Info"
+                            ToolTip="Acá verás el mensaje de respuesta que te ha enviado el servidor."
+                            ToolTipService.InitialShowDelay="0" />
+                    </Grid>
+
+                    <TextBox
+                        Grid.Row="1"
+                        Margin="0,0,0,5"
+                        Background="#F9F9F9"
+                        FontSize="14"
+                        Foreground="#388E3C"
+                        IsReadOnly="True"
+                        Style="{DynamicResource TextBoxStyle1}"
+                        Text="{Binding MessageFromServer}" />
                 </Grid>
 
-                <TextBox
-                    Grid.Row="3"
-                    Margin="0,0,0,5"
-                    Background="#F9F9F9"
-                    Foreground="#388E3C"
-                    IsReadOnly="True"
-                    Text="{Binding ClientNetworkUtilities.ResponseFromServer}" />
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid Margin="0,0,0,4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock
+                            Margin="0,2,0,2"
+                            Padding="4,2"
+                            FontSize="12"
+                            Foreground="{DynamicResource PrimaryForegroundColor}"
+                            Text="Mensaje para el servidor" />
+                        <iconPacks:PackIconCodicons
+                            Grid.Column="1"
+                            Width="18"
+                            Margin="0,0,10,0"
+                            VerticalAlignment="Center"
+                            Foreground="{DynamicResource PrimaryForegroundColor}"
+                            Kind="Info"
+                            ToolTip="Escribe el mensaje que le deseas enviar al servidor."
+                            ToolTipService.InitialShowDelay="0" />
+                    </Grid>
+                    <TextBox
+                        x:Name="tbClient"
+                        Grid.Row="1"
+                        Margin="0,0,0,5"
+                        Background="#F9F9F9"
+                        FontSize="14"
+                        Foreground="#0ab53b"
+                        Style="{DynamicResource TextBoxStyle1}" />
+                </Grid>
+
+
+
                 <Button
                     Grid.Row="4"
+                    Padding="10"
                     HorizontalAlignment="Stretch"
+                    Background="{Binding Path=ConnectedToServer, Converter={StaticResource BoolToBrushButtonConverter}, ConverterParameter='#085DE8'}"
                     Command="{Binding SendBufferToServerCommand}"
                     CommandParameter="{Binding Text, ElementName=tbClient}"
                     Content="Enviar"
-                    Cursor="Hand" />
+                    Cursor="Hand"
+                    FontSize="16"
+                    Foreground="{Binding Path=ConnectedToServer, Converter={StaticResource BoolToBrushForegroundConverter}, ConverterParameter='#FFFFFF'}"
+                    Style="{DynamicResource ButtonStyle1}" />
             </Grid>
         </Grid>
     </Border>

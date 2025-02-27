@@ -26,16 +26,6 @@ namespace NetPrototype.Views.Pages
         public TCPServerPage()
         {
             InitializeComponent();
-            this.Unloaded += View_Unloaded;
-        }
-
-        private void View_Unloaded(object sender, RoutedEventArgs e)
-        {
-            if (this.DataContext is TCPServerViewModel viewModel)
-            {
-                viewModel.Cleanup();
-                Debug.WriteLine("CleanUP Server View.");
-            }
         }
     }
 }

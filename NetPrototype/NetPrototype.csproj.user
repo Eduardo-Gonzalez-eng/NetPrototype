@@ -18,10 +18,19 @@
     <Page Update="Controls\Button\ButtonStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Controls\CheckBox\CheckBoxStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\ComboBox\ComboBoxStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Controls\TabControl\TabControlStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Controls\TabControl\TabItemStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\TextBox\TextBoxStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Controls\TitleBarControl\CustomTitleBar.xaml">

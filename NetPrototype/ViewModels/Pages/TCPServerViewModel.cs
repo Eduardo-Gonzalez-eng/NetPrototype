@@ -41,7 +41,7 @@ namespace NetPrototype.ViewModels.Pages
         /// Represents the server port. 
         /// </summary>
         [ObservableProperty]
-        private string _messageToClientOfServerStatus;
+        private string _messageServerStatus;
 
         /// <summary>
         /// Represents the TextBox of the clients messages.
@@ -72,19 +72,47 @@ namespace NetPrototype.ViewModels.Pages
         [ObservableProperty]
         private string _messageFromServerToClient;
 
+        /// <summary>
+        /// Represents the TextBlock of Connect button;
+        /// </summary>
+        [ObservableProperty]
+        private string _textButtonServer;
+
+        /// <summary>
+        /// Represents the dinamic color for inner textblock.
+        /// </summary>
+        [ObservableProperty]
+        private bool _inOperation;
+
+        public bool IsSuscriptionInitalized { get; set; } = false;
+
         public TCPServerViewModel()
         {
             _tcpServerUtility = new TCPServerUtility();
+
+            // initialize all suscriptions.
+            InitalizeSuscriptions();
+
+            // Default status.
+            SelectedBufferProcessorMethod = BufferProccesorMethod.TextMessage;
+            IsAutomaticResponse = true;
+            MessageFromServerToClient = "Hola desde el servidor!";
+            TextButtonServer = "Iniciar";
+            InOperation = false;
+            ServerPort = 3000;
+        }
+
+        public void InitalizeSuscriptions()
+        {
+            if(IsSuscriptionInitalized) return;
 
             // initialize all suscriptions.
             _tcpServerUtility
                 .OnConnectionStatus(ConnectionHandler)
                 .OnTransaction(TransactionHandler);
 
-            // Default status.
-            SelectedBufferProcessorMethod = BufferProccesorMethod.TextMessage;
-            IsAutomaticResponse = true;
-            MessageFromServerToClient = "Hola desde el servidor!";
+            // Initialized.
+            IsSuscriptionInitalized = true;
         }
 
         private void ConnectionHandler(ConnectionState connSts)
@@ -93,22 +121,28 @@ namespace NetPrototype.ViewModels.Pages
             {
                 case ConnectionState.Connecting:
                     Debug.WriteLine("Initializing server");
-                    MessageToClientOfServerStatus = "Iniciando servidor...";
+                    MessageServerStatus = "Iniciando servidor...";
+                    InOperation = true;
 
                     break;
                 case ConnectionState.Listen:
                     Debug.WriteLine("The server is listening.");
-                    MessageToClientOfServerStatus = $"Escuchando en el puerto {ServerPort}...";
-
+                    MessageServerStatus = $"Escuchando en el puerto {ServerPort}...";
+                    TextButtonServer = "Detener";
+                    InOperation = false;
                     break;
                 case ConnectionState.Inactive:
-                    Debug.WriteLine("The server is inactive.");
-                    MessageToClientOfServerStatus = "Servidor inactivo.";
+                    Debug.WriteLine("Shutdown server.");
+                    MessageServerStatus = "Servidor inactivo.";
+                    TextButtonServer = "Iniciar";
+                    InOperation = false;
                     break;
                 default:
                     Debug.WriteLine("State not implemented.");
+                    InOperation = false;
                     break;
             }
+
         }
         private void TransactionHandler(DateTime time, TcpClient client, Memory<byte>? buffer)
         {
@@ -147,6 +181,8 @@ namespace NetPrototype.ViewModels.Pages
 
             _tcpServerUtility?.OffConnectionStatus(ConnectionHandler);
             _tcpServerUtility?.OffTransaction(TransactionHandler);
+
+            IsSuscriptionInitalized = false;
         }
 
         [RelayCommand]
@@ -160,6 +196,13 @@ namespace NetPrototype.ViewModels.Pages
             {
                 _tcpServerUtility.StopServer();
             }
+        }
+
+        [RelayCommand]
+        private void SendBufferToServer(object parameter)
+        {
+            // Send to server
+            // _ = _tcpServerUtility.SendToClientAsync(SelectedBufferProcessorMethod ?? BufferProccesorMethod.Disable, // no available, // no available);
         }
     }
 }
