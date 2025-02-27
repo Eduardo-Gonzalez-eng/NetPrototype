@@ -9,9 +9,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Image\NetPrototypeIcon.png" />
+    <None Remove="Assets\Image\new_logo_nebral.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controls\ComboBox\" />
     <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\Page\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Image\NetPrototypeIcon.png" />
+    <Resource Include="Assets\Image\new_logo_nebral.png" />
   </ItemGroup>
 
 </Project>
