@@ -38,9 +38,18 @@
                     <Border
                         x:Name="border"
                         Background="{TemplateBinding Background}"
-                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderBrush="#ECECEC"
                         BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="5"
                         SnapsToDevicePixels="true">
+                        <Border.Effect>
+                            <DropShadowEffect
+                                BlurRadius="10"
+                                Direction="270"
+                                Opacity="0.1"
+                                ShadowDepth="1"
+                                Color="Black" />
+                        </Border.Effect>
                         <ContentPresenter
                             x:Name="contentPresenter"
                             Margin="{TemplateBinding Padding}"
