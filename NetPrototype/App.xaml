@@ -12,6 +12,7 @@
 
                 <ResourceDictionary Source="Controls/TitleBarControl/CustomTitleBar.xaml" />
                 <ResourceDictionary Source="Controls/Button/ButtonStyle.xaml" />
+                <ResourceDictionary Source="Controls/Button/ButtonStyle2.xaml" />
                 <ResourceDictionary Source="Controls/TabControl/TabControlStyle.xaml" />
                 <ResourceDictionary Source="Controls/TabControl/TabItemStyle.xaml" />
                 <ResourceDictionary Source="Controls/ComboBox/ComboBoxStyle.xaml" />

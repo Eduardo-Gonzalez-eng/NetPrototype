@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\eduar\source\repos\NetPrototype\NetPrototype\App.xaml
-121146627167
+13-23518128
 
 23-410897816
 237-548064077
-Controls\Button\ButtonStyle.xaml;Controls\CheckBox\CheckBoxStyle.xaml;Controls\ComboBox\ComboBoxStyle.xaml;Controls\TabControl\TabControlStyle.xaml;Controls\TabControl\TabItemStyle.xaml;Controls\TextBox\TextBoxStyle.xaml;Controls\TitleBarControl\CustomTitleBar.xaml;Resources\Themes\DarkTheme.xaml;Resources\Themes\LightTheme.xaml;Views\Pages\TCPClientPage.xaml;Views\Pages\TCPServerPage.xaml;Views\Window\MainWindow.xaml;
+Controls\Button\ButtonStyle.xaml;Controls\Button\ButtonStyle2.xaml;Controls\CheckBox\CheckBoxStyle.xaml;Controls\ComboBox\ComboBoxStyle.xaml;Controls\TabControl\TabControlStyle.xaml;Controls\TabControl\TabItemStyle.xaml;Controls\TextBox\TextBoxStyle.xaml;Controls\TitleBarControl\CustomTitleBar.xaml;Resources\Themes\DarkTheme.xaml;Resources\Themes\LightTheme.xaml;Views\Pages\TCPClientPage.xaml;Views\Pages\TCPServerPage.xaml;Views\Window\MainWindow.xaml;
 
-False
+True
 

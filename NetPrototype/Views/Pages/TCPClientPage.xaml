@@ -279,7 +279,7 @@
                     Cursor="Hand"
                     FontSize="16"
                     Foreground="{Binding Path=ConnectedToServer, Converter={StaticResource BoolToBrushForegroundConverter}, ConverterParameter='#FFFFFF'}"
-                    Style="{DynamicResource ButtonStyle1}" />
+                    Style="{DynamicResource ButtonStyle2}" />
             </Grid>
         </Grid>
     </Border>
