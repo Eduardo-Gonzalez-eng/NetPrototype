@@ -191,6 +191,7 @@
                     </Grid.ColumnDefinitions>
 
                     <CheckBox
+                        VerticalAlignment="Center"
                         BorderBrush="#898989"
                         Content="Respuesta automática al cliente"
                         IsChecked="{Binding IsAutomaticResponse}"

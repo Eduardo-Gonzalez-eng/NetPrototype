@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\checkbox\\checkboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\checkbox\\checkboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\button\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\button\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpclientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpclientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpclientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpclientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\views\\pages\\tcpserverpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\viewmodels\\pages\\tcpclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\tabcontrol\\tabitemstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\tabcontrol\\tabitemstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\button\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\button\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\checkbox\\checkboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|solutionrelative:netprototype\\controls\\checkbox\\checkboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9956DEA-880D-483B-84A4-93A6ED2187E7}|NetPrototype\\NetPrototype.csproj|c:\\users\\eduar\\source\\repos\\netprototype\\netprototype\\controls\\titlebarcontrol\\customtitlebar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TCPClientPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPClientPage.xaml.cs",
               "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPClientPage.xaml.cs",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TCPServerViewModel.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPServerViewModel.cs",
               "RelativeDocumentMoniker": "NetPrototype\\ViewModels\\Pages\\TCPServerViewModel.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TCPServerPage.xaml",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
               "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPServerPage.xaml",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TCPClientViewModel.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
               "RelativeDocumentMoniker": "NetPrototype\\ViewModels\\Pages\\TCPClientViewModel.cs",
@@ -145,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TCPClientPage.xaml",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Views\\Pages\\TCPClientPage.xaml",
               "RelativeDocumentMoniker": "NetPrototype\\Views\\Pages\\TCPClientPage.xaml",
@@ -158,7 +158,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "CheckBoxStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
+              "RelativeDocumentMoniker": "NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
+              "RelativeToolTip": "NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-27T20:06:30.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonStyle.xaml",
+              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
+              "RelativeDocumentMoniker": "NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
+              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
+              "RelativeToolTip": "NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-27T20:55:05.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BoolToBrushForegroundConverter.cs",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Converters\\BoolToBrushForegroundConverter.cs",
               "RelativeDocumentMoniker": "NetPrototype\\Converters\\BoolToBrushForegroundConverter.cs",
@@ -171,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TabItemStyle.xaml",
               "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\TabControl\\TabItemStyle.xaml",
               "RelativeDocumentMoniker": "NetPrototype\\Controls\\TabControl\\TabItemStyle.xaml",
@@ -306,72 +330,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T15:05:48.894Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "dd64c26a-4cfa-414f-b9f5-129c48350cf9",
-        "Display": 0,
-        "X": -185,
-        "Y": 170,
-        "Width": 1528,
-        "Height": 785,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CheckBoxStyle.xaml",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
-              "RelativeDocumentMoniker": "NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
-              "RelativeToolTip": "NetPrototype\\Controls\\CheckBox\\CheckBoxStyle.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T20:06:30.313Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "827ad781-5b29-473c-ad11-257836a5d60f",
-        "Display": 0,
-        "X": 31,
-        "Y": 346,
-        "Width": 1528,
-        "Height": 785,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ButtonStyle.xaml",
-              "DocumentMoniker": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "RelativeDocumentMoniker": "NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "ToolTip": "C:\\Users\\eduar\\source\\repos\\NetPrototype\\NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "RelativeToolTip": "NetPrototype\\Controls\\Button\\ButtonStyle.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T20:11:07.512Z",
               "EditorCaption": ""
             }
           ]

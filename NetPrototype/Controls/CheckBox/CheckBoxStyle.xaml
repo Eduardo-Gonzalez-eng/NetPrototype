@@ -62,7 +62,7 @@
                             Margin="1"
                             Padding="2"
                             HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            VerticalAlignment="Center"
                             Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}"
@@ -87,7 +87,7 @@
                             Grid.Column="1"
                             Margin="{TemplateBinding Padding}"
                             HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                            VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                            VerticalAlignment="Center"
                             Focusable="False"
                             RecognizesAccessKey="True"
                             SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
