@@ -27,4 +27,10 @@
     <Resource Include="Assets\Image\new_logo_nebral.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Controls\Button\ButtonStyle2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
 </Project>
