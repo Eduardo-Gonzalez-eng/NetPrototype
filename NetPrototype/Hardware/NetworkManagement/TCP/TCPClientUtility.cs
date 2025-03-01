@@ -158,6 +158,8 @@ namespace NetPrototype.Hardware.NetworkManagement.TCP
                 await _client.GetStream().ReadAsync(RxBuffer, _cancellationTokenSource.Token);
 
                 NotifyTransaction(DateTime.Now, _client, RxBuffer);
+
+                await Task.Delay(1);
             }
         }
 

@@ -16,5 +16,5 @@ C:\Users\eduar\source\repos\NetPrototype\NetPrototype\App.xaml
 237-548064077
 Controls\Button\ButtonStyle.xaml;Controls\Button\ButtonStyle2.xaml;Controls\CheckBox\CheckBoxStyle.xaml;Controls\ComboBox\ComboBoxStyle.xaml;Controls\TabControl\TabControlStyle.xaml;Controls\TabControl\TabItemStyle.xaml;Controls\TextBox\TextBoxStyle.xaml;Controls\TitleBarControl\CustomTitleBar.xaml;Resources\Themes\DarkTheme.xaml;Resources\Themes\LightTheme.xaml;Views\Pages\TCPClientPage.xaml;Views\Pages\TCPServerPage.xaml;Views\Window\MainWindow.xaml;
 
-True
+False
 
